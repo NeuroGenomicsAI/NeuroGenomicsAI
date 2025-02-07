@@ -1,0 +1,12 @@
+{
+  "name": "neurogenomicsaiplatform",
+  "version": "1.0.0",
+  "description": "This project demonstrates the use of GitHub Actions, licensing, and code coverage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
