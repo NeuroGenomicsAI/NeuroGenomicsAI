@@ -1,12 +1,23 @@
 {
   "name": "neurogenomicsaiplatform",
   "version": "1.0.0",
-  "description": "This project demonstrates the use of GitHub Actions, licensing, and code coverage.",
+  "description": "AI-driven personalized genomics for predictive healthcare.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["AI", "genomics", "healthcare", "machine learning"],
+  "author": "Dar Rehan Rasool",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
 }
