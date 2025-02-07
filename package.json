@@ -8,14 +8,19 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["AI", "genomics", "healthcare", "machine learning"],
+  "keywords": [
+    "AI",
+    "genomics",
+    "healthcare",
+    "machine learning"
+  ],
   "author": "Dar Rehan Rasool",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "mongoose": "^7.0.3"
+    "express": "^4.18.2",
+    "mongoose": "^8.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"

@@ -1,1 +1,0 @@
-version: '3.8'\nservices:\n  backend:\n    build: ./NeuroGenomicsAIBackend\n    ports:\n      - '5000:5000'\n  frontend:\n    build: ./NeuroGenomicsAIFrontend\n    ports:\n      - '3000:3000'
